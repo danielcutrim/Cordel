@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root{ --font01: Verdana, Geneva, Tahoma, sans-serif;
+    --font02: "Caveat", cursive;
+    --font03: "Sriracha", cursive;
+    
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+html.body{
+    background-color: rgb(252, 252, 252);
+    font-family: var(--font01);
+}
+
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+header> h1{
+    text-transform: uppercase;
+    font-family: var(--font03);
+   
+   
+ 
+  
+}
+
+a{
+    text-decoration: none;
+font-weight: bolder;
+color: white;
+
+}
+a:hover{
+    text-decoration: underline;
+    color: rgb(246, 109, 4);
+    transition: 1s;
+}
+section{
+   line-height: 2em;
+   padding-top: 10vh;
+   padding-bottom: 10vh;
+   padding-left: 30px;
+  font-family: var(--font03);
+  background-color: rgb(233, 233, 233);
+ font-size: 1.5em;
+}
+section.imagem{
+    background-attachment: fixed;
+}
+
+
+section.imagem > p{
+    background-color: black;
+   display: inline-block;
+    border-radius: 10px;
+    padding: 5px;
+    text-shadow: 2px black;
+   
+}
+section#imagem01{
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+   padding-right: 10px;
+  background-size: cover;
+  color: white;
+   border-radius: 10px;
+   
+   
+ 
+}
+section#imagem02{
+   background-image: url(../imagens/background002.jpg);
+   background-position: right center;
+   color: rgb(250, 247, 247);
+   text-shadow: 2px 2px 2px black;
+   border-radius: 10px;
+   background-size: cover;
+   box-shadow: 6px 6px 13px 2px rgb(0, 0, 0);
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
